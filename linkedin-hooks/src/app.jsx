@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
+import Effect from './effect';
 
 const createArray = length => [...Array(length)];
 
@@ -35,6 +36,7 @@ export default function App(props) {
         <p>{checked ? 'SHREK IS HERE' : 'not checked'}</p>
       </div>
       <StarRating />
+      <Effect />
     </>
   );
 }
