@@ -1,0 +1,17 @@
+button {
+  padding: 10px 20px;
+}
+
+.cold {
+  margin-top: 2rem;
+}
+
+.cold-button {
+  background-color: blue;
+  color: white;
+}
+
+.hot-button {
+  background-color: red;
+  color: white;
+}
