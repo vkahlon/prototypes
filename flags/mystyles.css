@@ -1,0 +1,49 @@
+.french-container {
+  margin-top: 2rem;
+  width: 300px;
+}
+
+.german-container {
+  margin-top: 2rem;
+  width: 900px;
+}
+
+.row {
+  display: flex;
+}
+
+.two {
+  flex-direction: column;
+}
+
+.column-third {
+  width: 33%;
+}
+
+.french {
+  height: 200px;
+}
+
+.german {
+  height: 50px;
+}
+
+.top {
+  background-color: blue;
+}
+
+.bot {
+  background-color: red;
+}
+
+.t {
+  background-color: black;
+}
+
+.m {
+  background-color: red;
+}
+
+.b {
+  background-color: yellow;
+}
