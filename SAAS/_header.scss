@@ -1,0 +1,27 @@
+@mixin flexCenter($direction) {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction
+}
+
+header {
+@include flexCenter(column);
+
+  background-color: $myFirstSCSSVariable;
+  color: $textColor;
+
+
+  button {
+    color: $textColor;
+
+    &:hover {
+      background: yellow;
+    }
+
+    &:after {
+      content: ' after';
+    }
+  }
+}
