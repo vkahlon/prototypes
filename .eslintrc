@@ -53,9 +53,7 @@
         "asyncArrow": "always"
       }
     ],
-    "react/jsx-filename-extension": [
-      "error"
-    ]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "overrides": [
     {
