@@ -15,6 +15,7 @@
     "standard"
   ],
   "rules": {
+
     "no-var": "off",
     "semi": [
       "error",
@@ -54,7 +55,13 @@
       }
     ],
     "react/jsx-filename-extension": [
-      "error"
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
     ]
   },
   "overrides": [
